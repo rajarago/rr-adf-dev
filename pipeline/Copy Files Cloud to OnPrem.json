@@ -1,6 +1,7 @@
 {
 	"name": "Copy Files Cloud to OnPrem",
 	"properties": {
+		"description": "test pipeline",
 		"activities": [
 			{
 				"name": "Copy data",
