@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Copy data",
+				"description": "Copy onprem table to azure data lake storage gen2",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
