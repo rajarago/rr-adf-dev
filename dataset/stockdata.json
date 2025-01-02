@@ -1,0 +1,70 @@
+{
+	"name": "stockdata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OnPremSqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "SYMBOL",
+				"type": "varchar"
+			},
+			{
+				"name": "SERIES",
+				"type": "varchar"
+			},
+			{
+				"name": "OPEN",
+				"type": "varchar"
+			},
+			{
+				"name": "HIGH",
+				"type": "varchar"
+			},
+			{
+				"name": "LOW",
+				"type": "varchar"
+			},
+			{
+				"name": "CLOSE",
+				"type": "varchar"
+			},
+			{
+				"name": "LAST",
+				"type": "varchar"
+			},
+			{
+				"name": "PREVCLOSE",
+				"type": "varchar"
+			},
+			{
+				"name": "TOTTRDQTY",
+				"type": "varchar"
+			},
+			{
+				"name": "TOTTRDVAL",
+				"type": "varchar"
+			},
+			{
+				"name": "TIMESTAMP",
+				"type": "varchar"
+			},
+			{
+				"name": "TOTALTRADES",
+				"type": "varchar"
+			},
+			{
+				"name": "ISIN",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "stockdata"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
