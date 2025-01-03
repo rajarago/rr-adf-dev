@@ -1,0 +1,25 @@
+{
+	"name": "fromgit",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Wait Pipeline 2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 30,
+				"startTime": "2025-01-03T12:26:00",
+				"endTime": "2025-01-04T12:26:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
