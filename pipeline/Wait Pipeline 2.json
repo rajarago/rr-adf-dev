@@ -1,6 +1,7 @@
 {
 	"name": "Wait Pipeline 2",
 	"properties": {
+		"description": "mm",
 		"activities": [
 			{
 				"name": "New Wait",
